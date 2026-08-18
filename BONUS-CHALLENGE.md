@@ -62,8 +62,7 @@ thường xuyên (mất mạng ở tỉnh xa).
 audit table cho mọi lần đọc PII, lineage tooling.
 
 ### D. Multimodal RAG trên 10 triệu document pháp lý
-Một văn phòng luật Việt Nam muốn RAG trên **10 triệu PDF** (text + ảnh scan
-+ bảng). Embeddings sẽ được regenerate **ít nhất 2 lần** khi model upgrade.
+Một văn phòng luật Việt Nam muốn RAG trên **10 triệu PDF** (text + ảnh scan + bảng). Embeddings sẽ được regenerate **ít nhất 2 lần** khi model upgrade.
 Search latency p95 < 200 ms trên 30 tỉ tokens chunks. Versioning quan trọng:
 khi một bản án trích dẫn version cụ thể của document, kết quả retrieval phải
 *reproducible* sau 5 năm.
